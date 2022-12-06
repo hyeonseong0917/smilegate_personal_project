@@ -1,1 +1,15 @@
-# smilegate_personal_project
+# 스마일게이트 개인 과제
+## 목표 설정
+- 프로젝트 선택: PROJECT 2 인증 시스템
+- 구현 목표
+  - 가입, 로그인 페이지
+  - 유저 관리 페이지
+  - RDBMS DB와 연동
+  - Password Encryption
+  - 캐시(Option)
+  - 이메일 인증 및 비밀번호 찾기 (Option)
+- 기술적으로 해보고 싶은 목표
+  - Django에서 OAuth를 이용한 인증 처리
+    - 앱 생성 및 사용자 등록
+    - 등록된 사용자로 토큰 요청 및 생성
+  - 인증 절차를 분리할 필요가 있다면 Kubernetes 클러스터에서 도커 컨테이너를 통한 앱 운영(Option, 모두 구현하고 시간이 남는다면)
