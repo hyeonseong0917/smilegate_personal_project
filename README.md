@@ -4,7 +4,7 @@
 - 구현 목표
   - 가입, 로그인 페이지 -> API로 구현
   - 유저 관리 페이지 -> 웹 사이트로 확인
-  - 게임 리뷰 및 평점 확인
+  - 게임의 스토리라인, 리뷰 및 평점 확인
   - RDBMS DB와 연동 -> 일단 sqlite에서 연동
   - Password Encryption -> Option
   - 캐시(Option)
