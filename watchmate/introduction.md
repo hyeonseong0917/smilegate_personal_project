@@ -1,4 +1,4 @@
-### 1. 디렉토리 구조
+## 1. 디렉토리 구조
 ```bash
 WATCHMATE
 ├── user_app
@@ -38,3 +38,5 @@ WATCHMATE
     - urls.py: register, login, logout, token을 확인하고 refresh 하는 urlpattern들을 구현
     - views.py: logout, Register에 대한 응답 구현
 - models.py: auth token을 생성하는 기능 구현
+
+## 시연 과정
