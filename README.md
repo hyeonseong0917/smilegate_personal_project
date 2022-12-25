@@ -4,6 +4,7 @@
 - 구현 목표
   - 가입, 로그인 페이지 -> API로 구현
   - 유저 관리 페이지 -> 웹 사이트로 확인
+  - 게임 리뷰 및 평점 확인
   - RDBMS DB와 연동 -> 일단 sqlite에서 연동
   - Password Encryption -> Option
   - 캐시(Option)
@@ -12,3 +13,4 @@
   - Django에서 JWT를 이용한 인증 처리
     - 사용자 등록
     - 등록된 사용자로 토큰 요청 및 생성
+    - admin을 제외하고는 review 수정 불가
