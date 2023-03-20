@@ -57,6 +57,14 @@ WATCHMATE
     - views.py: logout, Register에 대한 응답 구현
 - models.py: auth token을 생성하는 기능 구현
 
+## 4. API
+- /watch/list/ : 게시글 Object들을 보여주는 api
+- /watch/<int:pk>/reviews/ : pk번째 게시글 Object의 reviews들을 보여주는 api, header로 Authorization: Bearer access token 필요함
+- /account/api/token/ : username과 password를 받아 access token과 refresh token 반환하는 api
+- /account/api/token/refresh/ : access token 만료 시 refresh token을 body로 주어 access token 재발급 해주는 api
+- /account/register/ : body로 username, email, password, password2를 주어 새로운 유저 등록을 해주는 api
+- /account/<int:pk>/review-create/ : pk번째 게시글 Object에 review를 생성하는 api, header로 Authorization: Bearer access token 필요함
+
 ## 4. Authentication 시연 과정
 ### (1) super users's side
 admin 계정으로 로그인한 경우 기본적으로 User들에 대한 관리를 할 수 있다.
